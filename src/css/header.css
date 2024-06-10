@@ -1,0 +1,10 @@
+.header {
+  padding: 16px 0;
+  background-color: var(--main-accent-color);
+}
+
+.header-logo {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--light-text-color);
+}

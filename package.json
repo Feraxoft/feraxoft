@@ -1,0 +1,26 @@
+{
+  "name": "feraxoft",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://feraxoft.github.io/feraxoft",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /feraxoft/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olenaknd/feraxoft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
+}
