@@ -1,5 +1,49 @@
 <header class="header">
-  <div class="container">
-    <a class="header-logo" href="">feraxoft</a>
+  <div class="header-container">
+    <a class="header-logo" href="/src/index.html">feraxoft</a>
+    <div class="header-menu-container">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="/src/index.html">Home</a></li>
+          <li class="header-item">
+            <a href="/src/pages/aboutPage/about.html">About us</a>
+          </li>
+          <li class="header-item">
+            <a href="/src/pages/productsPage/products.html">Own products</a>
+          </li>
+          <li class="header-item">
+            <a href="/src/pages/contactsPage/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header-menu-btn js-modal-open" type="button">
+        <svg width="35px" height="35px">
+          <use href="/src/images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="backdrop js-backdrop is-hidden">
+    <div class="mobile-menu">
+      <button class="mobile-close-btn js-modal-close" type="button">
+        <svg width="35px" height="35px">
+          <use href="/src/images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="mobile-list">
+          <li class="mobile-item"><a href="/src/index.html">Home</a></li>
+          <li class="mobile-item">
+            <a href="/src/pages/aboutPage/about.html">About us</a>
+          </li>
+          <li class="mobile-item">
+            <a href="/src/pages/productsPage/products.html">Own products</a>
+          </li>
+          <li class="mobile-item">
+            <a href="/src/pages/contactsPage/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>

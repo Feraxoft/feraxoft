@@ -13,5 +13,14 @@
     <symbol id="icon-client" viewBox="0 0 24 24" fill="none">
       <path d="M4 21V18.5C4 15.4624 6.46243 13 9.5 13H13.5M8 21V18M16 6.5C16 8.70914 14.2091 10.5 12 10.5C9.79086 10.5 8 8.70914 8 6.5C8 4.29086 9.79086 2.5 12 2.5C14.2091 2.5 16 4.29086 16 6.5ZM17.5 12.9998C17.0439 12.3927 16.3178 12 15.5 12C14.1193 12 13 13.1193 13 14.5C13 15.1195 13.2253 15.6864 13.5985 16.1231L17.5 21L21.4015 16.1231C21.7747 15.6864 22 15.1195 22 14.5C22 13.1193 20.8807 12 19.5 12C18.6822 12 17.9561 12.3927 17.5 12.9998Z" stroke="#3293b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
     </symbol>
+    <symbol id="icon-burger" viewBox="0 0 24 24" fill="none">
+      <path d="M20 7L4 7" stroke="#f9fafb" stroke-width="1.5" stroke-linecap="round"/>
+      <path opacity="0.5" d="M20 12L4 12" stroke="#f9fafb" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M20 17L4 17" stroke="#f9fafb" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24" fill="none">
+     <circle opacity="0.5" cx="12" cy="12" r="10" stroke="#60697b" stroke-width="1.5"/>
+     <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#60697b" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
   </defs>
 </svg>

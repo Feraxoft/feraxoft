@@ -64,11 +64,8 @@
   width: 100%;
   margin-top: 60px;
   padding: 50px 0;
-  background-image: linear-gradient(
-    to left,
-    var(--secondary-accent-color) 20%,
-    var(--light-text-color)
-  );
+  background-color: var(--secondary-accent-color);
+  border-radius: 18px;
 }
 
 .process-container-text {

@@ -1,0 +1,32 @@
+.products-container {
+  padding: 120px 0;
+}
+
+.products-title {
+  margin-bottom: 28px;
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    to right,
+    var(--main-accent-color),
+    var(--secondary-accent-color)
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.procucts-coming {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.products-description {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}

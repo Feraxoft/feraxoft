@@ -1,0 +1,27 @@
+.imprint-container {
+  padding: 120px 0;
+}
+
+.imprint-title {
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+  background: linear-gradient(
+    to right,
+    var(--main-accent-color),
+    var(--secondary-accent-color)
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.imprint-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}

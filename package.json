@@ -21,6 +21,8 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "modern-normalize": "^2.0.0"
+    "@emailjs/browser": "^4.3.3",
+    "modern-normalize": "^2.0.0",
+    "toastify-js": "^1.12.0"
   }
 }

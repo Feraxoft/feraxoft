@@ -3,7 +3,13 @@
 @import './common.css';
 @import './header.css';
 @import './hero.css';
-@import './about.css';
+@import './services.css';
 @import './process.css';
 @import './features.css';
 @import './footer.css';
+@import './contacts.css';
+@import './about.css';
+@import './products.css';
+@import './privacy.css';
+@import './terms.css';
+@import './imprint.css';

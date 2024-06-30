@@ -1,5 +1,5 @@
 .hero-section {
-  padding: 40px 0 80px 0;
+  padding: 100px 0 80px 0;
   background-color: var(--main-accent-color);
   color: var(--light-text-color);
 }
@@ -33,7 +33,7 @@
 }
 
 .hero-btn {
-  margin: 0 auto;
+  text-align: center;
 }
 
 @media screen and (min-width: 375px) {

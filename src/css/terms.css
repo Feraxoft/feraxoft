@@ -1,0 +1,26 @@
+.terms-container {
+  padding: 120px 0;
+}
+
+.terms-title {
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    to right,
+    var(--main-accent-color),
+    var(--secondary-accent-color)
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.terms-text {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
