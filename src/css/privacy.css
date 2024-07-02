@@ -24,3 +24,8 @@
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
+
+.privacy-list {
+  list-style: disc;
+  margin-left: 20px;
+}

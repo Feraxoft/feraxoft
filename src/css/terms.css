@@ -18,9 +18,7 @@
   background-clip: text;
 }
 
-.terms-text {
-  margin-bottom: 8px;
-  font-size: 12px;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
+.terms-list {
+  list-style: disc;
+  margin-left: 20px;
 }

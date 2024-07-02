@@ -60,6 +60,30 @@ body {
   padding: 0 15px;
 }
 
+.common-text {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.common-text-blue {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--add-third-color);
+}
+
+.common-text-bold {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;

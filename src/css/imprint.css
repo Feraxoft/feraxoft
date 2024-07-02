@@ -18,10 +18,3 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
-.imprint-text {
-  margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
-}

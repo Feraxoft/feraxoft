@@ -21,16 +21,23 @@
   background-clip: text;
 }
 
+.contacts-name {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
 .contacts-adrress {
   margin-bottom: 18px;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
 
 .contacts-tel {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
