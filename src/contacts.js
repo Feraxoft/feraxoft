@@ -1,8 +1,6 @@
 import emailjs from '@emailjs/browser';
-import Toastify from 'toastify-js';
-import 'toastify-js/src/toastify.css';
 
-import '../../js/toogleModal';
+import './js/toogleModal';
 
 const SERVICE_ID = 'service_sjub4p4';
 const TEMPLATE_ID = 'template_aqc7han';
@@ -28,24 +26,11 @@ function sendMessage(e) {
       publicKey: PUBLIC_KEY,
     })
     .then(
-      response => {
-        Toastify({
-          text: 'Your message has been successfully sent!',
-          duration: 3000,
-          gravity: 'top',
-          position: 'right',
-          stopOnFocus: true,
-        }).showToast();
+      () => {
         form.reset();
       },
       err => {
-        Toastify({
-          text: 'Something went wrong! Please, try again!',
-          duration: 3000,
-          gravity: 'top',
-          position: 'right',
-          stopOnFocus: true,
-        }).showToast();
+        console.log(err.text);
       }
     );
 }
