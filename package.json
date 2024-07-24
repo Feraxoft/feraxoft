@@ -5,7 +5,8 @@
   "homepage": "https://feraxoft.github.io/feraxoft",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /feraxoft/"
+    "build": "parcel build src/*.html --public-url /feraxoft/",
+    "build:prod": "parcel build --dist-dir public"
   },
   "repository": {
     "type": "git",

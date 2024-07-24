@@ -114,6 +114,10 @@
     color: var(--secondary-accent-color);
   }
 
+  .header-active-link {
+    color: var(--secondary-accent-color);
+  }
+
   .header-menu-btn {
     display: none;
   }
