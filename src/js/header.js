@@ -1,3 +1,5 @@
+import './changeHomeHref';
+
 const homeLink = document.querySelector('.js-home-link');
 const aboutLink = document.querySelector('.js-about-link');
 const productsLink = document.querySelector('.js-products-link');
