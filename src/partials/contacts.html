@@ -35,7 +35,16 @@
           id="message"
           required
         ></textarea>
-        <button class="contacts-btn" type="submit">Send</button>
+        <button class="contacts-btn js-contacts-btn" type="submit">
+          <span>Send</span>
+        </button>
+        <p class="contacts-message js-contacts-error visually-hidden">
+          Something went wrong. Please, try again!
+        </p>
+        <p class="contacts-message js-contacts-success visually-hidden">
+          Your message has been successfully sent! We will contact you in a due
+          course!
+        </p>
       </form>
     </div>
   </div>

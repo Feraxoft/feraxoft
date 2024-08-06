@@ -151,6 +151,34 @@ body {
   outline: none;
 }
 
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  margin: 4px auto;
+  position: relative;
+  background: var(--add-second-color);
+  box-shadow: -18px 0 var(--add-second-color), 18px 0 var(--add-second-color);
+  box-sizing: border-box;
+  animation: shadowPulse 2s linear infinite;
+}
+
+@keyframes shadowPulse {
+  33% {
+    background: var(--add-second-color);
+    box-shadow: -18px 0 var(--main-accent-color), 18px 0 var(--add-second-color);
+  }
+  66% {
+    background: var(--main-accent-color);
+    box-shadow: -18px 0 var(--add-second-color), 18px 0 var(--add-second-color);
+  }
+  100% {
+    background: var(--add-second-color);
+    box-shadow: -18px 0 var(--add-second-color), 18px 0 var(--main-accent-color);
+  }
+}
+
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;

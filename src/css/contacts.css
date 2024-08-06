@@ -134,6 +134,13 @@
   box-shadow: var(--add-second-color) 0px 2px 8px 0px;
 }
 
+.contacts-message {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
 @media screen and (min-width: 1280px) {
   .contacts-container {
     flex-direction: row;
