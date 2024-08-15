@@ -23,6 +23,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "aos": "^2.3.4",
     "modern-normalize": "^2.0.0"
   }
 }
