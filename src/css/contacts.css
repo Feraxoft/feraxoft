@@ -115,6 +115,56 @@
   color: var(--placeholder-text-color);
 }
 
+.contacts-privacy-container {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 32px;
+}
+
+.contacts-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--add-second-color);
+  border-radius: 4px;
+  background-color: var(--btn-bg-color);
+
+  fill: transparent;
+  transition: fill 250ms cubic-bezier(0.23, 0.86, 0.79, 0.77);
+}
+
+.contacts-privacy-container:hover .contacts-checkbox {
+  box-shadow: var(--add-second-color) 0px 2px 8px 0px;
+}
+
+.contacts-privacy-input:focus + .contacts-privacy-label .contacts-checkbox {
+  box-shadow: var(--add-second-color) 0px 2px 8px 0px;
+}
+
+.contacts-privacy-input:checked + .contacts-privacy-label .contacts-checkbox {
+  fill: var(--main-text-color);
+}
+
+.contacts-privacy-label {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.contacts-privacy-link {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+}
+
 .contacts-btn {
   width: 140px;
   padding: 14px 28px;

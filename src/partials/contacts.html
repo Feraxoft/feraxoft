@@ -38,6 +38,24 @@
           placeholder="I'm looking for..."
           required
         ></textarea>
+        <div class="contacts-privacy-container">
+          <input
+            type="checkbox"
+            id="privacy"
+            class="contacts-privacy-input visually-hidden"
+            required
+          />
+          <label for="privacy" class="contacts-privacy-label">
+            <span class="contacts-checkbox">
+              <svg class="contacts-check-svg" width="12px" height="12px">
+                <use href="/src/images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            I agree with
+            <a href="privacy" class="contacts-privacy-link">Privacy</a> and
+            <a href="terms" class="contacts-privacy-link">Terms</a>
+          </label>
+        </div>
         <button class="contacts-btn js-contacts-btn" type="submit">
           <span>Send</span>
         </button>
