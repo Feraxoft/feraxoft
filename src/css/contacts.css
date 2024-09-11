@@ -107,6 +107,14 @@
   box-shadow: var(--add-second-color) 0px 2px 8px 0px;
 }
 
+.contacts-input::placeholder,
+.contacts-textarea::placeholder {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--placeholder-text-color);
+}
+
 .contacts-btn {
   width: 140px;
   padding: 14px 28px;

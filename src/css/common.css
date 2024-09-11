@@ -29,6 +29,7 @@
 :root {
   --main-text-color: #60697b;
   --light-text-color: #f9fafb;
+  --placeholder-text-color: rgba(96, 105, 123, 0.6);
   --main-bg-color: #ffffff;
   --main-accent-color: #3a6ee1;
   --secondary-accent-color: #04cb64;
