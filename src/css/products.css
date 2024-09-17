@@ -20,13 +20,14 @@
 
 .procucts-coming {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+  color: var(--placeholder-text-color);
 }
 
 .products-description {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
